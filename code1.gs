@@ -22,7 +22,7 @@ function myShitei() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();//現在のスプレッドシート取得
   var sheet = spreadsheet.getActiveSheet();//現在のワークシートを取得
   var range = sheet.getRange("A1").setValue(10000);　//stringを引数にするのは、１つのセルを参照するもの
-  var value = range.getValues();
+//  var value = range.getValues();
   
-  Logger.log(value);
+  Logger.log(range);
 }
